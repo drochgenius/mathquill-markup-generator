@@ -18,6 +18,6 @@ const { tex2html } = require('mathquill-markup-generator');
 (async () => {
     const latex = '\\frac{1}{2}x^3';
     const html = await tex2html(latex);
-});
+})();
 
 ```
