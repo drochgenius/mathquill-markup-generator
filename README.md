@@ -1,6 +1,6 @@
-# mathquill-markup-generator
+# MathQuill Markup Generator
 
-Tiny library to generate MathQuill markup on the server
+Tiny library to parse a LaTeX string with [MathQuill](http://mathquill.com/) and generate the associated HTML markup on the server side.
 
 ## Installation
 
