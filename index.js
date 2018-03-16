@@ -16,6 +16,6 @@ function processMath(math, callback) {
     });
 }
 
-const mathToHTML = promisify(processMath);
+const tex2html = promisify(processMath);
 
-module.exports = { mathToHTML };
+module.exports = { tex2html };
