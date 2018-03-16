@@ -1,6 +1,6 @@
 {
   "name": "mathquill-markup-generator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tiny library to generate MathQuill markup on the server",
   "main": "index.js",
   "scripts": {
