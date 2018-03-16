@@ -1,0 +1,33 @@
+{
+  "name": "mathquill-markup-generator",
+  "version": "1.0.0",
+  "description": "Tiny library to generate MathQuill markup on the server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier *.js templates/*.js --write && eslint *.js templates/*.js --fix",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drochgenius/mathquill-markup-generator.git"
+  },
+  "keywords": [],
+  "author": "Dominique Rochefort <dominique.rochefort@hmhco.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drochgenius/mathquill-markup-generator/issues"
+  },
+  "homepage": "https://github.com/drochgenius/mathquill-markup-generator#readme",
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "mathquill": "^0.10.1-a"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-hmh-mtl": "^1.8.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-types": "^1.0.2",
+    "mocha": "^5.0.4",
+    "prettier": "^1.11.1"
+  }
+}
